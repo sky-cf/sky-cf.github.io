@@ -28,7 +28,15 @@ section h2 {
     margin-bottom: 1rem;
 }
 
-.project {
+.ongoing-project {
+    background-color: #1dd6e0;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.past-project {
+    background-color: #8be2d3;
     border: 1px solid #ddd;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -42,4 +50,66 @@ footer {
     background-color: #f0f0f0;
     text-align: center;
     padding: 1rem 0;
+}
+
+nav {
+    background-color: #333; /* Dark background */
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+nav a:hover {
+    background-color: #ddd; /* Light background on hover */
+    color: black;
+}
+
+nav a:active {
+    background-color: #4CAF50; /* Active tab color */
+    color: white;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+    nav a {
+        float: none;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+/* Add these styles to your existing style.css */
+
+#experience .experience-item {
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#experience .experience-item h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+#experience .experience-item ul {
+    list-style-type: disc; /* Bullet points */
+    padding-left: 2rem;
+}
+
+#experience .experience-item ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Optional: Add hover effect to experience items */
+#experience .experience-item:hover {
+    background-color: #f9f9f9;
 }
