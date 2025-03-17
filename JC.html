@@ -53,12 +53,36 @@
             text-align: center;
             padding: 1rem 0;
         }
+        
+        .pickup-button {
+            background-color: #4CAF50; /* Green background */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 0;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .pickup-button:hover {
+            background-color: #3e8e41; /* Darker green on hover */
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Just Clean Dry Cleaners</h1>
     </header>
+
+    <section id="pickup">
+        <h2>Schedule Pickup</h2>
+        <p>Click the button below to schedule a pickup via SMS.</p>
+        <a href="sms:+917887687588?body=Laundry%20Pickup%20Request" class="pickup-button">Schedule Pickup</a>
+    </section>
 
     <section id="contact">
         <h2>Contact Us</h2>
