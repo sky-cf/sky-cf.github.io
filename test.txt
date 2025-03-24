@@ -1,0 +1,12 @@
+LinkedIn
+
+Experience
+Contributed to Claim Intake Automation project for Cigna Healthcare
+Contributed to Claim Review Automation project for Cigna Healthcare
+
+Contributed to Claim Intake Automation project for Cigna Healthcare
+Contributed to Claim Amount Detection project for Cigna Healthcare
+
+Currently serving as a Data Engineer with Virtusa, for Cigna Healthcare, a prominent healthcare organisation, where I've spent around 2 years. My role focuses on developing and implementing automated solutions for claim intake and review. Leveraging AWS services (e.g., Lambda, Glue, S3, SQS, RDS), Python scripting, Terraform for infrastructure as code, Jenkins for CI/CD, PostgreSQL for database querying, I contribute to streamlined data workflows and enhanced operational efficiency.
+Currently serving as a Data Engineer with Virtusa, for Cigna Healthcare, a prominent healthcare organisation, where I've spent around 2 years. My role focuses on developing and implementing automated solutions for claim intake and review. Leveraging AWS services (e.g., Lambda, Glue, S3, SQS, RDS), Python scripting, Terraform for infrastructure as code, Jenkins for CI/CD, PostgreSQL for database querying, I contribute to streamlined data workflows and enhanced operational efficiency.
+Spearheaded the development of an automated allowed amount detection system for Cigna Healthcare over 9 months. This project involved utilising spaCy library for NLP, along with HuggingFace transformer (Roberta-Base) to extract key information from contractual texts, building robust Gitlab CI/CD pipelines for continuous integration and deployment, developing Python scripts for data processing, and creating a Flask-based REST API for seamless integration with existing systems. Also used some Machine Learning models for text classification (e.g. Random Forest, Naive Bayes, Clustering, etc.)
